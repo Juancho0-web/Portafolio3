@@ -1,0 +1,167 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)),
+    url(../img/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/* HEADER */
+
+.container-header {
+    background: black;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.container-header header {
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.logo a {
+    font-size: 36px;
+    color: #1cb698;
+    text-decoration: none;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li a {
+    color: #fff;
+    margin: 0 15px;
+    padding: 3px;
+    transition: .5s;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #1cb698;
+}
+section {
+    padding: 100px 0 50px 0;
+    min-height: 100vh;
+}
+
+
+.titulo{
+    
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif cursive;
+    color: #ffffff;
+    padding: 20px 0;
+    margin-top: 150px;
+    font-size: 36px;
+}
+.proyectos{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.card{
+    background-color: #1e1e1e;
+    border-radius: 15px;
+    padding: 30px;
+    width: 400px;
+    height: 500px;
+    margin-top:5%;
+    text-align: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    cursor: pointer;
+    color: white;
+    transition:transform 0.3s ease;
+}
+.card:hover{
+    transform: scale(1.05);
+}
+.card img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.card h2{
+    margin-top: 0;
+    text-align: center;
+    margin: 15px 0 10px;
+    color: white;
+}
+.h3{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 0;
+}
+p{
+    text-align: center;
+    margin: 10px 0 15px;
+}
+.card p{
+    color: #ccc;
+    font-size: 14px;
+}
+.links{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+  
+    
+}
+.links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    flex-wrap: wrap;
+    gap: 20px;
+    display: inline-block;
+
+}
+.links a i{
+    margin: 5px;
+    color: #00ffc3; 
+}
+/* FOOTER */
+
+footer {
+    background: black;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+    position: relative;
+    width: 100%;
+}
+footer .redes{
+    margin-bottom: 20px;
+}
+
+footer .redes a{
+    color: #fff;
+    display: inline-block;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    margin: 10px;
+    font-size: 20px;
+    transition: all 0.3s ease;
+}
+footer .redes a:hover{
+    color: #1cb698;
+    border-color: #1cb698;
+    transform: scale(1.1);
+}

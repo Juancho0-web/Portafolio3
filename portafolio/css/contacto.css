@@ -1,0 +1,175 @@
+@import
+url('https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:wght@100; 300;400;600;800&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)), url(../img/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+*{
+    box-sizing: border-box;
+    font-family: "work Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.container-header {
+    background: black;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.container-header header{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.container-header header .logo a {
+    font-family: 'Righteous', cursive;
+    font-size: 36px;
+    color: #f5b002;
+    text-decoration: none;
+}
+.container-header header ul{
+    display: flex;
+    list-style: none;
+}
+.container-header header nav ul li a{
+    text-align: center;
+    color: white;
+    margin: 0 15px;
+    padding: 3px;
+    transition: .5s;
+    text-decoration: none;
+}
+.container-header header nav ul li a:hover{
+    color: #f47d05;
+}
+/*Contenedor de contacto*/
+.contacto{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 40px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    gap: 100px;
+    justify-content: center;
+    
+}
+/*Titulo y texto*/
+.contacto-titulo{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 30px;
+    margin-top: 100px;
+}
+.contacto-titulo h1{
+    font-size: 2rem;
+    margin: 0;
+    color: #f47d05;
+}
+.contacto-titulo p{
+    font-size: 15px;
+    color: #dcdcdc;
+    margin-top: 10px;
+}
+
+/*Formulario contacto*/
+
+.formulario{
+    background-color: rgb(39, 39, 39);
+    border-radius: 15px ;
+    box-shadow: 0 15px 20px;
+    width: 600px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    
+}
+.formulario input{
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 15px;
+    border:1px solid #ccc;
+    border-radius: 10px;
+    font-size: 10px;
+    gap: 20px;
+    justify-items: 10px;
+    
+}
+.formulario textarea{
+    width: 100%;
+    border-radius: 6px;
+    padding: 10px;
+    resize: vertical;
+}
+.formulario button{
+    background-color: rgb(245, 121, 6);
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 10px;
+
+}
+
+.formulario button{
+    width: 100%;
+    margin-top: 10px;
+}
+/*mapa*/
+.mapa iframe{
+    width: 600px;
+    height: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 10px white;
+}
+
+   /*FOOTER*/
+   footer{
+    margin-top: 190px;
+    background-color: black;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+    position: relative;
+    width: 100%;
+}
+
+footer .redes{
+    margin-bottom: 20px;
+}
+footer .redes a{
+    color: white;
+    display: inline-block;
+    border:  1px solid #fff;
+    border-radius:100%;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    margin: 10px;
+    font-size: 20px;
+    transition: all 0.3s ease;
+}
+footer .redes a:hover{
+    background: #1cb698;
+    border-color: #1cb698;
+    transform: scale(1.1);
+}

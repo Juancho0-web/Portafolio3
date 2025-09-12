@@ -1,0 +1,64 @@
+h1{
+color: black;
+text-align: center;
+font-size: 20px;
+
+}
+
+
+
+.practi{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: 20px 0;
+    flex-wrap: wrap;
+}
+.practi img{
+    width: 250px;
+    height: 200px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 8px rgb(204, 20, 20);
+}   
+
+.practi img:hover{
+    transition: transform 1.5s ease;
+    transform: scale(2.1) rotate(360deg);
+}
+.caja {
+  background-color: rgb(12, 12, 255);
+  transition: background-color 0.5s ease;
+  
+
+
+}
+
+.caja:hover {
+  background-color: rgb(255, 39, 39);
+  transition: transform 1.5s ease;
+  transform: scale(2.1);
+}
+.caja2{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(12, 12, 255);
+    transition: background-color 0.5s ease;
+    align-items: center;
+    justify-content: center;
+    transition: transform 1.5s ease;
+}
+.caja2:hover{
+    transform: translate(50px, 20px);
+}   
+
+.caja3{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(12, 12, 255);
+    transition: background-color 0.5s ease;
+    align-items: center;
+    justify-content: center;
+    transition: transform ;
+}
+.caja3:hover{
+    transform: translate(50px, 20px);

@@ -1,0 +1,21 @@
+
+h1{
+    color: red;
+}
+p{
+    color: blue;
+}
+
+body{
+   background-image: url(../img/diferencias-tecnologia-informatica.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.degradado{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    background: linear-gradient(to right,  rgb(73, 217, 26), rgb(255, 184, 19));   
+}
+ 
