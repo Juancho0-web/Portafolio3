@@ -174,7 +174,7 @@ footer .redes a:hover{
     #menu-toggle{
         display: none;
     }
-}
+
 .menu-icon{
     display: block;
     font-size: 28px;
@@ -197,8 +197,10 @@ footer .redes a:hover{
     border-radius: 6px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.4);
     z-index: 250;
+    }
 }
 /* mostrar menu al activar */
+
 #menu-toggle:checked ~ .nav ul {
     display: flex;
 }
@@ -212,3 +214,75 @@ footer .redes a:hover{
     display: block;
     text-align: left
  }
+
+@media (max-width:768px){
+        .container-header header {
+        flex-direction: column;
+        align-items:center;
+    }
+
+    .container-header header ul {
+        flex-direction: column;
+        width: 100%;
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    .container-header header nav ul li {
+        margin: 10px 0;
+    }
+
+    .sobremi {
+        padding: 80px 15px;
+    }
+
+    .sobremi h2 {
+        font-size: 36px;
+    }
+
+    .sobremi .fila {
+
+        flex-direction: column;
+    }
+    .sobremi .fila .col{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .sobremi .fila .col h3{
+        font-size: 24px;
+    }
+    .sobremi .fila .col ul strong{
+        width: auto;
+        text-align: left;
+    }
+    .sobremi .fila .col .container-interes{
+        justify-content: center;
+    }
+    .sobremi .fila .col .container-interes .interes{
+        width: 80px;
+        height: 80px;
+        font-size: 14px;
+    }
+    footer .redes a{
+        width: 36px;
+        height: 36px;
+        line-height: 36px;
+        font-size: 18px;
+        }
+
+}
+@media (max-width: 480px){
+        .container-header header .logo a{
+        font-size: 28px;
+    }
+    .sobremi h2 {
+        font-size: 28px;
+    }
+    .sobremi .container-section p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .sobremi .fila .col h3{
+        font-size: 20px;
+    }
+}
